@@ -1,8 +1,8 @@
 import React from "react";
 
-function Article({ title, date, preview, minutes }) {
+function Article({ key, title, date, preview, minutes }) {
   return (
-    <div>
+    <div key = {key}>
       <h2>{title}</h2>
       <p>{date}</p>
       <p>{preview}</p>

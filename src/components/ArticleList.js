@@ -21,6 +21,7 @@ function ArticleList({ posts }) {
               date={post.date}
               preview={post.preview}
               minutes={post.minutes}
+              key={post.id}
             />
           </>
         );
